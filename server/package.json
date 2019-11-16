@@ -1,0 +1,19 @@
+{
+	"name": "To_Do_Tasks",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "nodemon mysql_code.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"joi": "^14.3.0",
+		"mysql": "*",
+		"request": "^2.88.0",
+		"write-json": "^3.0.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.7"
+	}
+}
